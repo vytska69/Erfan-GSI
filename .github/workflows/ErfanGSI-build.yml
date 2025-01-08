@@ -16,9 +16,7 @@ on:
         required: true
         default: 'Generic'
 env:
-  TELEGRAM_TO: 1214932938
-  TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-
+  
 jobs:
   build_tosasitill_GSI:
     runs-on: ubuntu-20.04
